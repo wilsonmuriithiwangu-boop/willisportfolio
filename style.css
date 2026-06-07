@@ -1,0 +1,145 @@
+nav{
+    background:rgb(50, 201, 215);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:15px 40px;
+
+    position:fixed;
+    width:100%;
+}
+nav ul{
+    display:flex;
+    gap:20px;
+    list-style:none;
+}
+nav a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial;
+    background:rgb(75, 75, 122);
+}
+section{
+    padding:60px 20px;
+    text-align:center;
+}
+.hero{
+    background:linear-gradient(to right,#000428,#004e92);
+    color:white;
+    height:100vh;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.hero h1{
+    font-size:60px;
+    margin-bottom:10px;
+}
+.hero p{
+    font-size:20px;
+}
+button{
+    padding:12px 20px;
+    border:none;
+    background:#00b894;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+    transition:0.3s;
+}
+button:hover{
+    background:#019875;
+    transform:scale(1.05);
+}
+.project-card{
+     background:rgb(221, 229, 230);
+     padding:20px;
+     margin:auto;
+     width:300px;
+     border-radius:10px;
+
+     transition:0.3s;
+}
+.project-card:hover{
+    transform:translateY(-10px);
+}
+.project-card img{
+    width:200px;
+    border-radius:10px;
+}
+.hero-button{
+    display:flex;
+    gap:15px;
+    margin-top:20px;
+}
+h1{
+    font-size:55px;
+    margin-bottom:20px;
+}
+h2{
+    font-size:40px;
+    margin-bottom:20px;
+}
+h3{
+    font-size:28px;
+    margin-bottom:15px;
+}
+p{
+    font-size:18px;
+    margin-bottom:1.8;
+}
+.about-page{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+    padding-top:150px;
+    flex-wrap:wrap;
+}
+.about-page img{
+    width:300px;
+    border-radius:20px;
+    box-shadow:0 2px 15px rgba(0,0,0,0.2);
+}
+.about-text{
+    max-width:600px;
+    text-align:left;
+}
+.contact-page{
+    padding-top:150px;
+}
+.project-title{
+    width:100%;
+    margin-bottom:40px;
+}
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+    color:#222;
+}
+@media(max-width:768px){
+    nav{
+        flex-direction:column;
+        gap:15px;
+    }
+    .hero h1{
+        font-size:40px;
+    }
+    .abouy-page img{
+        width:220px;
+    }
+    .project-card{
+        width:90%;
+    }
+}
