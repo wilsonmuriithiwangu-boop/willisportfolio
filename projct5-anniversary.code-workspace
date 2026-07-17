@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../projct5-anniversary"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "project1-portfolio"
+	}
+}
