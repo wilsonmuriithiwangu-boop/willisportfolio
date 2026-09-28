@@ -1035,3 +1035,18 @@ main {
         text-align: center;
     }
 }
+/* ================================
+   WHATSAPP SHARE BUTTON
+================================ */
+
+.btn-share {
+    border: 1px solid rgba(37, 211, 102, 0.45);
+    background: rgba(37, 211, 102, 0.08);
+    color: #4ade80;
+}
+
+.btn-share:hover {
+    background: rgba(37, 211, 102, 0.15);
+    border-color: #4ade80;
+    transform: translateY(-3px);
+}
