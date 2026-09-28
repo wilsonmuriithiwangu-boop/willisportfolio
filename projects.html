@@ -2,66 +2,327 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | WilsonDev</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <nav>
-        <h2>WilsonDev</h2>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="project.html">Projects</a></li>
-            <li><a href="contact.html">Contacts</a></li>
-            </ul>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Wilson<span>Dev</span></a>
+
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html" class="active">Projects</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
     </nav>
-    <section class="project-page">
-        <h2 class="project-title">My Projects</h2>
-        <div class="project-card">
-            <img src="images/profile.jpg" alt="Projects">
-            <h3>Personal Website</h3>
-            <p>My personal website with clean responsive design</p>
-            <a href="https://wilsonpersonalwebsite.netlify.app" target="_blank">
-                <button>Live Demo</button>button>
+
+
+    <main class="projects-page">
+
+        <!-- PROJECT HEADER -->
+        <section class="projects-header">
+
+            <p class="eyebrow">MY WORK</p>
+
+            <h1>
+                Projects I've
+                <span>built.</span>
+            </h1>
+
+            <p>
+                A collection of websites and digital projects I've worked on
+                while learning and developing my skills.
+            </p>
+
+        </section>
+
+
+        <!-- PROJECTS GRID -->
+        <section class="projects-grid">
+
+
+            <!-- PROJECT 1 -->
+            <article class="project-card">
+
+                <div class="project-image">
+                    <img src="images/profile.jpg" alt="Personal Website">
+
+                    <div class="project-overlay">
+                        <a href="https://wilsonpersonalwebsite.netlify.app"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View Website →
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-content">
+
+                    <p class="project-category">PERSONAL PROJECT</p>
+
+                    <h2>Personal Website</h2>
+
+                    <p>
+                        My personal portfolio website where I showcase my
+                        skills, projects and journey in technology.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a href="https://wilsonpersonalwebsite.netlify.app"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+                        Live Website ↗
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 2 -->
+            <article class="project-card">
+
+                <div class="project-image">
+                    <img src="images/project7.jpg" alt="Thrift by Njeri">
+
+                    <div class="project-overlay">
+                        <a href="https://thriftbynjeri.netlify.app"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View Website →
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-content">
+
+                    <p class="project-category">BUSINESS WEBSITE</p>
+
+                    <h2>Thrift by Njeri</h2>
+
+                    <p>
+                        A modern online dress shop designed to display
+                        products, prices, availability and customer contact
+                        information.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>Firebase</span>
+                        <span>CSS</span>
+                    </div>
+
+                    <a href="https://thriftbynjeri.netlify.app"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+                        Live Website ↗
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 3 -->
+            <article class="project-card">
+
+                <div class="project-image">
+                    <img src="images/project4.jpg" alt="Shop Website">
+
+                    <div class="project-overlay">
+                        <a href="https://google.com"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View Website →
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-content">
+
+                    <p class="project-category">WEB DESIGN</p>
+
+                    <h2>Shop Website</h2>
+
+                    <p>
+                        A shop website concept focused on presenting products
+                        in a clean and user-friendly layout.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a href="https://google.com"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+                        Live Website ↗
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 4 -->
+            <article class="project-card">
+
+                <div class="project-image">
+                    <img src="images/project5.jpg" alt="Barber Shop Website">
+
+                    <div class="project-overlay">
+                        <a href="https://google.com"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View Website →
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-content">
+
+                    <p class="project-category">BUSINESS WEBSITE</p>
+
+                    <h2>Barber Shop</h2>
+
+                    <p>
+                        A website concept created for a barber business to
+                        showcase services and create an online presence.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a href="https://google.com"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+                        Live Website ↗
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 5 -->
+            <article class="project-card">
+
+                <div class="project-image">
+                    <img src="images/project2.jpg" alt="Anniversary Website">
+
+                    <div class="project-overlay">
+                        <a href="https://willisstellaanniversary.netlify.app/"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View Website →
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-content">
+
+                    <p class="project-category">PERSONAL PROJECT</p>
+
+                    <h2>Anniversary Website</h2>
+
+                    <p>
+                        A personal interactive website created as a special
+                        digital anniversary experience.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a href="https://willisstellaanniversary.netlify.app/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+                        Live Website ↗
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- COMING SOON -->
+            <article class="project-card coming-soon">
+
+                <div class="coming-soon-content">
+
+                    <div class="coming-icon">+</div>
+
+                    <p class="project-category">COMING SOON</p>
+
+                    <h2>Something New</h2>
+
+                    <p>
+                        More projects are currently being developed.
+                    </p>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <!-- CTA -->
+        <section class="projects-cta">
+
+            <p class="eyebrow">HAVE A PROJECT?</p>
+
+            <h2>Let's create something together.</h2>
+
+            <p>
+                If you have an idea for a website or digital project,
+                let's talk about it.
+            </p>
+
+            <a href="contact.html" class="btn btn-primary">
+                Start a Conversation
             </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div>
+            <h3>Wilson<span>Dev</span></h3>
+            <p>Building my skills, one project at a time.</p>
         </div>
-        <hi class="project-title">My Projects</hi>
-        <div class="project-card">
-            <img src="images/project7.jpg" alt="Projects">
-            <h3>Market Place</h3>
-            <p>A modern thrift store website</p>
-            <a href="https://thriftbynjeri.netlify.app" target="_blank">
-                <button>Live Demo</button>
-            </a>
-        </div>
-        <hi class="project-title">My Projects</hi>
-        <div class="project-card">
-            <img src="images/project4.jpg" alt="Projects">
-            <h3>Shop Website</h3>
-            <p>A modern shop website</p>
-            <a href="https://google.com" target="_blank">
-                <button>Live Demo</button>
-            </a>
-        </div>
-        <hi class="project-title">My Projects</hi>
-        <div class="project-card">
-            <img src="images/project5.jpg" alt="Projects">
-            <h3>Barber Shop Website</h3>
-            <P>A modern barber shop website</P>
-            <a href="https://google.com" target="_blank">
-                <button>Live Demo</button>
-            </a>
-        </div>
-        <hi class="project-title">My Projects</hi>
-        <div class="project-card">
-            <img src="images/project2.jpg" alt="Projects">
-            <h3>anniversary website</h3>
-            <p>A modern anniversary website</p>
-            <a href="https://willisstellaanniversary.netlify.app/" target="_blank">
-                <button>Live Demo</button>
-            </a>
-        </div>
-    </section>
+
+        <p>© 2026 Wilson Wangu. All rights reserved.</p>
+
+    </footer>
+
 </body>
 </html>
